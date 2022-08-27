@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', 'sans-serif';
+    color: #fff;
+}
+
+/* nav bar section start */
+nav {
+    background-color: #00BC40;
+    background-image: linear-gradient(to right, #4C3AE3, #00BC40);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-left p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-right {
+    margin: auto 20px;
+}
+
+.nav-right ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-right ul li {
+    padding: 10px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.login-btn {
+    background-color: #DB0B5F;
+    border-radius: 8px;
+}
+
+/* nav bar section end */
+
+/* hero section start */
+.hero-section {
+    background-color: #00AC61;
+    background-image: linear-gradient(to left, #EFF54D, #00AC61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section-left {
+    margin-left: 40px;
+}
+
+.hero-section-title {
+    font-size: 100px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero-section-desc {
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.hero-CtoA-btn {
+    background-color: #DB0B5F;
+    width: 120px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.hero-CtoA-btn:hover {
+    box-shadow: 0px 0px 10px 2px #DB0B5F;
+}
+
+.hero-CtoA-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* hero section end */
+
+/* highlight section start */
+.hightlight-section {
+    background-color: #00BC40;
+    background-image: linear-gradient(to right, #4C3AE3, #00BC40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.highlight-head {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hightlight-desc {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    width: 700px;
+}
+/* highlight section end */
+
+/* instructor section start */
+.instructor-title{
+    background-color: #00AC61;
+    background-image: linear-gradient(to left, #EFF54D, #00AC61);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.instructors-section {
+    background-color: #00AC61;
+    background-image: linear-gradient(to left, #EFF54D, #00AC61);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.instructor-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 5px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.instructor-photo img{
+    width: 250px;
+}
+
+.instructor-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.instructor-designation {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.youtube-link {
+    background-color: #DB0B5F;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.youtube-link a {
+    text-decoration: none;
+    color: #fff;
+}
+/* instructor section end */
+
+/* .communities section start */
+.community-section-title{
+    background-color: #00BC40;
+    background-image: linear-gradient(to right, #4C3AE3, #00BC40);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.communities-section {
+    background-color: #00BC40;
+    background-image: linear-gradient(to right, #4C3AE3, #00BC40);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+}
+
+.community-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 5px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    width: 300px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.community-img img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.community-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.community-desc {
+    margin: 10px;
+    text-align: center;
+}
+
+.community-CtoA:hover {
+    box-shadow: 0px 0px 10px 2px #DB0B5F;
+}
+/* communities section end */
+
+/* testimonial section start */
+.testimonial-section-title {
+    background-color: #00AC61;
+    background-image: linear-gradient(to left, #EFF54D, #00AC61);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.testimonal-section {
+    background-color: #00AC61;
+    background-image: linear-gradient(to left, #EFF54D, #00AC61);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 20px 5px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.candidate-img img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.candidate-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.candidate-designation {
+    font-weight: 600;
+    margin: 10px;
+}
+
+.candidate-testimonial {
+    text-align: center;
+}
+/* testimonial section end */
+
+/* FAQ's section start */
+.faqs-section-title {
+    background-color: #00BC40;
+    background-image: linear-gradient(to right, #4C3AE3, #00BC40);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.faqs-section {
+    background-color: #00BC40;
+    background-image: linear-gradient(to right, #4C3AE3, #00BC40);
+    display: flex;
+    padding: 50px 30px;
+    flex-direction: column;
+}
+
+.qanda {
+    box-shadow: 0px 0px 20px 5px;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.answer {
+    font-size: 18px;
+    font-weight: 400;
+}
+/* FAQ's section end */
