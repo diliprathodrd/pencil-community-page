@@ -24,6 +24,10 @@ nav img {
     margin-left: 10px;
 }
 
+.bars-icon {
+    display: none;
+}
+
 .nav-left {
     display: flex;
     justify-content: space-around;
@@ -339,3 +343,28 @@ nav img {
     font-weight: 400;
 }
 /* FAQ's section end */
+
+
+@media only screen and (max-width: 2100px) {
+    .hero-section-title {
+        font-size: 50px;
+    }
+
+    .hero-section img {
+        width: 400px;
+    }   
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-right ul {
+        display: none;
+    }
+
+    .bars-icon {
+        display: block;
+    }
+
+    .hightlight-desc {
+        width: 350px;
+    }
+}
