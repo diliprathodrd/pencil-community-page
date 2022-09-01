@@ -71,6 +71,7 @@ nav img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .hero-section-left {
@@ -148,6 +149,7 @@ nav img {
     justify-content: space-around;
     align-items: center;
     padding: 50px 10px;
+    flex-wrap: wrap;
 }
 
 .instructor-card {
@@ -158,6 +160,7 @@ nav img {
     justify-content: center;
     align-items: center;
     color: #000;
+    margin: 20px 0px;
 }
 
 .instructor-photo img{
@@ -261,6 +264,7 @@ nav img {
     justify-content: space-around;
     align-items: center;
     padding: 50px 10px;
+    flex-wrap: wrap;
 }
 
 .testimonial-card {
